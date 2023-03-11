@@ -7,13 +7,15 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Michael.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+            <br className="hidden lg:inline-block" />I'm a Full Stack Developer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          I am a Software Engineer with a background in Physics and Operations Management. 
+          Problem solving has always been my focus and drive to improve how things operate 
+          and introduce logical systems. Throughout my career in Web Development, I have 
+          learned how to oversee multiple tasks and create new solutions to streamline workflows 
+          and get the job done. Using my skills in Javascript, Python, HTML, and CSS, I am able 
+          to create simpler, more coherent software to meet the needs of an ever-changing environment.
           </p>
           <div className="flex justify-center">
             <a
@@ -32,7 +34,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src="./84143645.jpg"
           />
         </div>
       </div>
