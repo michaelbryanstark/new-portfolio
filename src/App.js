@@ -10,8 +10,8 @@ export default function App() {
     <main className="text-gray-600 bg-blue-100 body-font">
       <Navbar />
       <About />
-      {/* <Projects />
-      <Skills /> */}
+      <Projects />
+      {/* <Skills /> */}
       <Contact />
     </main>
   );
