@@ -11,7 +11,7 @@ export default function App() {
       <Navbar />
       <About />
       <Projects />
-      {/* <Skills /> */}
+      <Skills />
       <Contact />
     </main>
   );

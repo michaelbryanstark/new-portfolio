@@ -26,8 +26,16 @@ export const projects = [
   ];
   export const skills = [
     {
+      skill: "JavaScript",
+    },
+    {
       skill: "Python",
-    
+    },
+    {
+      skill: "React",
+    },
+    {
+      skill: "Django",
     },
     
    
