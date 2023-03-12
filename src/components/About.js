@@ -32,7 +32,7 @@ export default function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 py-20">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover rounded-lg object-center rounded"
             alt="hero"
             src="./84143645.jpg"
           />

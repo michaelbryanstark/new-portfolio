@@ -8,14 +8,6 @@ export const projects = [
       link: "https://bdsqs.net",
     },
     {
-      title: "CodeShare",
-      subtitle: "React",
-      description:
-        "Full stack React app built for developers to share code. Features full CRUD built using JavaScript, Node.js, CSS, MongoDB/Mongoose, JWT-based Authentication.",
-      image: "./codeshare.jpg",
-      link: "https://codeshare-app3.herokuapp.com/login",
-    },
-    {
       title: "The Penalty Box",
       subtitle: "Python and Django",
       description:
@@ -23,7 +15,14 @@ export const projects = [
       image: "./pirate.png",
       link: "https://penalty-box.herokuapp.com/",
     },
-   
+    {
+      title: "CodeShare",
+      subtitle: "React",
+      description:
+        "Full stack React app built for developers to share code. Features full CRUD built using JavaScript, Node.js, CSS, MongoDB/Mongoose, JWT-based Authentication.",
+      image: "./codeshare.jpg",
+      link: "https://codeshare-app3.herokuapp.com/login",
+    },
   ];
   export const skills = [
     {
