@@ -4,18 +4,14 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-blue-100 body-font">
+    <section id="projects" className="bg-[#061624] body-font pt-20">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-        <br></br>
-        <br></br>
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-grey">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-[#DEB992]">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-[#DEB992]">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
