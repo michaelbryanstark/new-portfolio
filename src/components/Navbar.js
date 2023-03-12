@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-transparent sticky top-0 z-50">
+    <header className="bg-[#061624] opacity-90 sticky top-0 z-50">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-[#DEB992] mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
