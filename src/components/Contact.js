@@ -28,28 +28,14 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 pt-24 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-blue-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <iframe
+        <div className="lg:w-2/3 md:w-1/2 overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <img
             width="100%"
             height="100%"
-            title="map"
             className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=130+Sterling+Place,+Brooklyn,+NY,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="./brooklyn.jpg"
           />
           <div className="bg-blue-100 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-[#DEB992] tracking-widest text-xs">
-                ADDRESS
-              </h2>
-              <p className="mt-1">
-                130 Sterling Pl <br />
-                Brooklyn, NY 11217
-              </p>
-            </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-[#DEB992] tracking-widest text-xs">
                 EMAIL
@@ -68,9 +54,9 @@ export default function Contact() {
           netlify
           name="contact"
           onSubmit={handleSubmit}
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-2 mt-8 md:mt-0">
           <h2 className="text-[#DEB992] sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+            Get In Touch
           </h2>
           <p className="leading-relaxed mb-5 text-[#DEB992]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
