@@ -37,6 +37,22 @@ export const projects = [
     {
       skill: "Django",
     },
-    
-   
+    {
+      skill: "HTML & CSS",
+    },
+    {
+      skill: "Express.js",
+    },
+    {
+      skill: "PostgreSQL & SQL",
+    },
+    {
+      skill: "Node.js",
+    },
+    {
+      skill: "jQuery",
+    },
+    {
+      skill: "MERN Stack, MVP Frameworks, RESTful APIs, and more",
+    },
   ];
