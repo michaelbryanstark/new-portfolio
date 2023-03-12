@@ -34,6 +34,7 @@ export default function Contact() {
             height="100%"
             className="absolute inset-0"
             src="./brooklyn.jpg"
+            alt="brooklyn"
           />
           <div className="bg-blue-100 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
