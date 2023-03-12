@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import React from "react";
+import { SocialIcon } from 'react-social-icons';
 
 export default function Navbar() {
   return (
@@ -17,7 +18,10 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
+          <SocialIcon className="nav-item" url="https://www.linkedin.com/in/michaelbryanstark/" target="_blank" />
+          <SocialIcon className="nav-item" url="https://github.com/michaelbryanstark" target="_blank"/>
         </nav>
+        
         <a
           href="#contact"
           className="inline-flex items-center bg-[#1BA098] border-0 py-1 px-3 focus:outline-none hover:bg-[#DEB992] rounded text-white mt-4 md:mt-0">
