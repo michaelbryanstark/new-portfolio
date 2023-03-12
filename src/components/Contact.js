@@ -60,8 +60,9 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="leading-relaxed mb-5 text-[#DEB992]">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            If you are in dire need of a website overhaul, bugs 
+            that are impossible to get rid of, intrested in building 
+            an app or just want to collaborate, please get in touch with me!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-[#DEB992]">
