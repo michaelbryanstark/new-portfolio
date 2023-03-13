@@ -27,27 +27,29 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 pt-24 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <div className="container px-10 py-10 pt-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="lg:w-2/3 md:w-1/2 overflow-hidden sm:mr-10 p-10 mt-4 flex items-end justify-start relative">
           <img
             width="100%"
             height="100%"
-            className="absolute inset-0"
+            className="absolute inset-0 rounded"
             src="./brooklyn.jpg"
             alt="brooklyn"
           />
-          <div className="bg-blue-100 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-[#DEB992] tracking-widest text-xs">
+          <div className="bg-blue-100 relative px-4 py-2 rounded shadow-md">
+            <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
+              <h2 className="title-font font-semibold text-[#DEB992] tracking-widest text-xs mt-4">
                 EMAIL
               </h2>
-              <p className="text-indigo-400 leading-relaxed">
+              <p className="text-[#1BA098] leading-relaxed">
                 michael.starkb@gmail.com
               </p>
               <h2 className="title-font font-semibold text-[#DEB992] tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">917-854-4008</p>
+              <p className="text-[#1BA098] leading-relaxed">
+                917.854.4008
+              </p>
             </div>
           </div>
         </div>
