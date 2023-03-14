@@ -1,30 +1,64 @@
 import React from "react";
-import { SocialIcon } from 'react-social-icons';
 
-export default function Navbar() {
+export default function Navbar({ fixed }) {
+  const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
+    <>
     <header className="bg-[#061624] opacity-90 sticky top-0 z-50">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <div className="title-font font-medium text-[#DEB992] mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            Michael Stark
-          </a>
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-[#061624] mb-3">
+        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+            <a
+              className="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-[#DEB992] hover:text-white"
+              href="#about"
+            >
+              Michael Stark
+            </a>
+            <button
+              className="text-[#1BA098] cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-[#DEB992] rounded block lg:hidden outline-none focus:outline-none"
+              type="button"
+              onClick={() => setNavbarOpen(!navbarOpen)}
+            >
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+          </div>
+          <div
+            className={
+              "lg:flex flex-grow items-center" +
+              (navbarOpen ? " flex" : " hidden")
+            }
+            id="example-navbar-danger"
+          >
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-white"
+                  href="#projects"
+                >
+                  <span className="ml-2 text-[#1BA098] hover:text-white">Apps</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-white"
+                  href="#skills"
+                >
+                 <span className="ml-2 text-[#1BA098] hover:text-white">Skills</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-white"
+                  href="#contact"
+                >
+                  <span className="ml-2 text-[#1BA098] hover:text-white">Contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-[#1BA098] justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
-            Apps
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
-          </a>
-          <a href="#contact" className="mr-5 hover:text-white">
-            Contact
-          </a>
-        </nav>
-            <SocialIcon className="nav-item" fgColor="white" url="https://www.linkedin.com/in/michaelbryanstark/" target="_blank" />
-            <br></br>
-            <SocialIcon className="nav-item" fgColor="white" url="https://github.com/michaelbryanstark" target="_blank"/>
-      </div>
-    </header>
+      </nav>
+      </header>
+    </>
   );
 }

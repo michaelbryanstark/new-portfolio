@@ -1,5 +1,6 @@
 
 import React from "react";
+import { SocialIcon } from 'react-social-icons';
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -26,9 +27,10 @@ export default function Contact() {
   }
 
   return (
+    <>
     <section id="contact" className="relative">
       <div className="container px-10 py-10 pt-24 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 overflow-hidden sm:mr-10 p-10 mt-4 flex items-end justify-start relative">
+        <div className="lg:w-2/3 md:w-1/2 overflow-hidden sm:mr-10 p-10  flex items-end justify-start relative">
           <img
             width="100%"
             height="100%"
@@ -111,5 +113,11 @@ export default function Contact() {
         </form>
       </div>
     </section>
+    <div className="flex flex-wrap justify-center">
+      <SocialIcon className="nav-item" fgColor="white" url="https://www.linkedin.com/in/michaelbryanstark/" target="_blank" />
+      <SocialIcon className="nav-item" fgColor="white" url="https://github.com/michaelbryanstark" target="_blank"/>
+    </div>
+    <br></br>
+    </>
   );
 }
