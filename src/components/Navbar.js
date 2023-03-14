@@ -9,7 +9,7 @@ export default function Navbar({ fixed }) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-[#DEB992] hover:text-white"
+              className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-[#DEB992] hover:text-white"
               href="#about"
             >
               Michael Stark
@@ -32,7 +32,7 @@ export default function Navbar({ fixed }) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-white"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white"
                   href="#projects"
                 >
                   <span className="ml-2 text-[#1BA098] hover:text-white">Apps</span>
@@ -40,7 +40,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-white"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white"
                   href="#skills"
                 >
                  <span className="ml-2 text-[#1BA098] hover:text-white">Skills</span>
@@ -48,7 +48,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-white"
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white"
                   href="#contact"
                 >
                   <span className="ml-2 text-[#1BA098] hover:text-white">Contact</span>
