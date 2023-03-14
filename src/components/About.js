@@ -8,9 +8,6 @@ export default function About() {
 
   const particlesInit = useCallback(async engine => {
         console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
         await loadFull(engine);
     }, []);
 
@@ -20,11 +17,11 @@ export default function About() {
   return (
 
     <section id="about">
-      <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">   
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-[#DEB992]">
             Hi, I'm Michael.
-            <br className="hidden lg:inline-block" />I'm a Full Stack Developer.
+            <br className="hidden lg:inline-block" /> I'm a Full Stack Developer.
           </h1>
           <p className="mb-8 leading-relaxed text-[#DEB992]">
           I am a Software Engineer with a background in Physics and Operations Management. 
