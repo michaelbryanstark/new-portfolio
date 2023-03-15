@@ -120,8 +120,8 @@ export default function Contact() {
       </div>
     </section>
     <div className="flex flex-wrap justify-center">
-      <SocialIcon className="nav-item" fgColor="white" url="https://www.linkedin.com/in/michaelbryanstark/" target="_blank" />
       <SocialIcon className="nav-item" fgColor="white" url="https://github.com/michaelbryanstark" target="_blank"/>
+      <SocialIcon className="nav-item" fgColor="white" url="https://www.linkedin.com/in/michaelbryanstark/" target="_blank" />
     </div>
     <br></br>
     </>
