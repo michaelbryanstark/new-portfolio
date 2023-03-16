@@ -43,7 +43,7 @@ export default function Contact() {
           <img
             width="100%"
             height="100%"
-            className="absolute inset-0 rounded pt-5"
+            className="absolute inset-0 rounded"
             src="./brooklyn.jpg"
             alt="brooklyn"
           />
