@@ -1,6 +1,5 @@
 
 import React, { useState } from "react";
-import { SocialIcon } from 'react-social-icons';
 import emailjs from 'emailjs-com'
 
 export default function Contact() {
@@ -122,11 +121,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
-    <div className="flex flex-wrap justify-center">
-      <SocialIcon className="nav-item" fgColor="white" url="https://github.com/michaelbryanstark" target="_blank"/>
-      <SocialIcon className="nav-item" fgColor="white" url="https://www.linkedin.com/in/michaelbryanstark/" target="_blank" />
-    </div>
-    <br></br>
     </>
   );
 }
