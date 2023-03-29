@@ -35,9 +35,13 @@ export default function Contact() {
   return (
     <>
     <section id="contact" className="relative pt-20">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="container mx-auto text-[#DEB992] w-10 mb-4">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M9 3.75H6.912a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H15M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859M12 3v8.25m0 0l-3-3m3 3l3-3" />
-    </svg>
+      <div className="text-center py-5 mb-20">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="container mx-auto text-[#DEB992] w-10 mb-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 3.75H6.912a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H15M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859M12 3v8.25m0 0l-3-3m3 3l3-3" />
+        </svg>
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-[#DEB992] mb-4">
+            Contact
+        </h1>
     <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <img
@@ -64,17 +68,15 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div
-          name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-2 mt-8 md:mt-0">
+        <div name="contact" className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-2 mt-8 md:mt-0">
           <h2 className="text-[#DEB992] sm:text-4xl text-3xl mb-1 font-medium title-font">
             Get In Touch
           </h2>
-          <p className="leading-relaxed mb-5 text-[#DEB992]">
-            If you are in dire need of a website overhaul, bugs 
-            that are impossible to get rid of, intrested in building 
-            an app or just want to collaborate, please get in touch with me!
-          </p>
+            <p className="leading-relaxed mb-5 text-[#DEB992]">
+              If you are in dire need of a website overhaul, bugs 
+              that are impossible to get rid of, intrested in building 
+              an app or just want to collaborate, please get in touch with me!
+            </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-[#DEB992]">
               Name
@@ -119,6 +121,7 @@ export default function Contact() {
           </button>
           <span className={emailSent ? 'visible' : null}></span>
         </div>
+      </div>
       </div>
     </section>
     </>
