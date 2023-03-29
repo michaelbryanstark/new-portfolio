@@ -42,7 +42,7 @@ export default function Contact() {
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-[#DEB992] mb-4">
             Contact
         </h1>
-    <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+    <div className="container px-10 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <img
             width="100%"
