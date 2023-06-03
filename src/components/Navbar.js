@@ -12,7 +12,7 @@ export default function Navbar({ fixed }) {
               className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-[#DEB992] hover:text-white"
               href="#about"
             >
-              Michael Stark
+              Michael Bryan Stark
             </a>
             <button
               className="text-[#1BA098] cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-[#DEB992] rounded block lg:hidden outline-none focus:outline-none"
