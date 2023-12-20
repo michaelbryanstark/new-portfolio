@@ -13,7 +13,7 @@ export const projects = [
       description:
         "Personal Blog with full CRUD built using the Django Framework and Python. Users can sign up leave comments on blog posts.",
       image: "./pirate.png",
-      // link: "https://github.com/michaelbryanstark/penalty-box",
+      link: "https://github.com/michaelbryanstark/penalty-box",
     },
     {
       title: "CodeShare",
@@ -21,7 +21,7 @@ export const projects = [
       description:
         "Full stack React app built for developers to share code. Features full CRUD built using JavaScript, Node.js, CSS, MongoDB/Mongoose, JWT-based Authentication.",
       image: "./codeshare.jpg",
-      // link: "https://github.com/michaelbryanstark/codeShare",
+      link: "https://github.com/michaelbryanstark/codeShare",
     },
   ];
   export const skills = [
