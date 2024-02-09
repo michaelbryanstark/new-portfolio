@@ -1,19 +1,18 @@
 import React from "react";
 
-import { useCallback } from 'react';
-import Particles from "react-particles";
-import { loadFull } from "tsparticles";
+// import Particles from "react-particles";
+// import { loadFull } from "tsparticles";
 
 export default function About() {
 
-  const particlesInit = useCallback(async engine => {
-        console.log(engine);
-        await loadFull(engine);
-    }, []);
+//   const particlesInit = useCallback(async engine => {
+//         console.log(engine);
+//         await loadFull(engine);
+//     }, []);
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
-    }, []);
+//     const particlesLoaded = useCallback(async container => {
+//         await console.log(container);
+//     }, []);
   return (
 
     <section id="about" className="pt-20">
@@ -55,7 +54,7 @@ export default function About() {
         </div>
       </div>
       
-      <Particles
+      {/* <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
@@ -132,7 +131,7 @@ export default function About() {
                 },
                 detectRetina: true,
             }}
-        />
+        /> */}
     </section>
 
   );
