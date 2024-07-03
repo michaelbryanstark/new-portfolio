@@ -1,4 +1,5 @@
 import React from "react";
+// import { NavLink } from 'react-router-dom';
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -54,9 +55,26 @@ export default function Navbar({ fixed }) {
                   <span className="ml-2 text-[#1BA098] hover:text-white">Contact</span>
                 </a>
               </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white"
+                  href="test"
+                >
+                  <span className="ml-2 text-[#1BA098] hover:text-white">Test</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                
+                
+              </li>
             </ul>
           </div>
         </div>
+        {/* <NavLink exact to="/test">
+
+                  <span className="ml-2 text-[#1BA098] hover:text-white">Test</span>
+
+                </NavLink> */}
       </nav>
       </header>
     </>
