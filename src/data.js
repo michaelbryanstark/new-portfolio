@@ -26,13 +26,25 @@ export const projects = [
   ];
   export const skills = [
     {
-      skill: "JavaScript",
+      skill: "JavaScript, TypeScript",
     },
     {
       skill: "Python",
     },
     {
-      skill: "React",
+      skill: "Java",
+    },
+    {
+      skill: "React Native",
+    },
+    {
+      skill: "Objective C++",
+    },
+    {
+      skill: "MongoDB and Supabase",
+    },
+    {
+      skill: "Expo",
     },
     {
       skill: "Django",
@@ -50,7 +62,7 @@ export const projects = [
       skill: "Node.js",
     },
     {
-      skill: "jQuery",
+      skill: "jQuery, JSON, JWT",
     },
     {
       skill: "MERN Stack, MVP Frameworks, RESTful APIs, and more",
