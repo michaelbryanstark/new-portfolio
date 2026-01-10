@@ -20,7 +20,7 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">   
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-[#DEB992]">
             Hi, I'm Michael.
-            <br className="hidden lg:inline-block" /> I'm a Full Stack Developer.
+            <br className="hidden lg:inline-block" /> I'm a Full Stack Developer & Current Cybersecurity Student
           </h1>
           <p className="mb-8 leading-relaxed text-[#DEB992]">
           I am a Software Engineer with a background in Physics and Operations Management. 
