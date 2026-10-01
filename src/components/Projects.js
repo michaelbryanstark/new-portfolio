@@ -13,9 +13,8 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-[#DEB992]">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-[#DEB992]" style={{color: 'rgba(0, 171, 252,.8)'}}>
-            A small collection of completed projects. Currently working on many more 
-            and am always looking for others to dive in to!
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-[#DEB992]" style={{ color: 'rgba(0, 171, 252,.8)' }}>
+            A small collection of past projects. Links are to the code repositories on github.
           </p>
         </div>
         <div className="flex flex-wrap justify-center -m-4">
