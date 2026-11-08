@@ -16,7 +16,7 @@ export const projects = [
     link: "https://github.com/michaelbryanstark/penalty-box",
   },
   {
-    title: "Notflix",
+    title: "Mikeflix",
     subtitle: "Python & SQL",
     description:
       "An attempt at my own streaming website. Can be made to work locally with a jellyfin server!",
@@ -26,10 +26,16 @@ export const projects = [
 ];
 export const skills = [
   {
-    skill: "JavaScript, TypeScript",
+    skill: "Linux & MacOS Security",
   },
   {
-    skill: "Python",
+    skill: "Windows Server 2022 & Windows Security",
+  },
+  {
+    skill: "JavaScript, TypeScript, Python",
+  },
+  {
+    skill: "Network Security and Management",
   },
   {
     skill: "Java",
@@ -65,6 +71,6 @@ export const skills = [
     skill: "jQuery, JSON, JWT",
   },
   {
-    skill: "MERN Stack, MVP Frameworks, RESTful APIs, and more",
+    skill: "MERN Stack, MVP Frameworks, RESTful APIs",
   },
 ];
