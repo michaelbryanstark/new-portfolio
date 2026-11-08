@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Python & SQL",
     description:
       "An attempt at my own streaming website. Can be made to work locally with a jellyfin server!",
-    image: "./codeshare.jpg",
+    image: "./Mikeflix.png",
     link: "https://michaelstarkb.pythonanywhere.com/",
   },
 ];
