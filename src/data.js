@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Personal Blog with full CRUD built using the Django Framework and Python. Users can sign up leave comments on blog posts.",
     image: "./pirate.png",
-    link: "https://github.com/michaelbryanstark/penalty-box",
+    link: "https://penalty-box.onrender.com/",
   },
   {
     title: "Mikeflix",
