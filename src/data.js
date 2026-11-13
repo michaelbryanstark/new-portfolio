@@ -16,7 +16,7 @@ export const projects = [
     link: "https://penalty-box.onrender.com/",
   },
   {
-    title: "Mikeflix",
+    title: "Mikeflex",
     subtitle: "Python & SQL",
     description:
       "An attempt at my own streaming website. Can be made to work locally with a jellyfin server!",
