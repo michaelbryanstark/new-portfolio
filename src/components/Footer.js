@@ -14,7 +14,7 @@ export default function Footer() {
                     </li>
                 </ul>
                 <div class="w-full mx-auto container md:p-6 p-4 md:flex md:items-center md:justify-between">
-                    <span class="text-sm text-[#DEB992] sm:text-center">© 2026 <a href="https://flowbite.com/" class="hover:underline">MichaelBryanStark™</a>
+                    <span class="text-sm text-[#DEB992] sm:text-center">© 2026 <a href="https://github.com/michaelbryanstark">MichaelBryanStark™</a>
                         <p>All Rights Reserved.</p>
                         <p>Anti AI, people learn how to think by learning.</p>
                     </span>
