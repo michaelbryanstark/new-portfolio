@@ -41,19 +41,14 @@ export const skills = [
     skill: "Windows Server 2022 & Windows Security",
   },
   {
-    skill: "JavaScript, TypeScript, Python",
+    skill: "JavaScript, TypeScript, Python, Java",
   },
   {
     skill: "Network Security and Management",
   },
+
   {
-    skill: "Java",
-  },
-  {
-    skill: "React Native",
-  },
-  {
-    skill: "Objective C++",
+    skill: "React Native, iOS, Android",
   },
   {
     skill: "MongoDB and Supabase",
