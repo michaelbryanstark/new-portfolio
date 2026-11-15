@@ -16,6 +16,14 @@ export const projects = [
     link: "https://penalty-box.onrender.com/",
   },
   {
+    title: "Star War Game",
+    subtitle: "JavaScript, HTML, CSS",
+    description:
+      "One of the first things I made, it works!",
+    image: "./thumbnail.svg",
+    link: "https://michaelbryanstark.github.io/Star_Wars_Duel/",
+  },
+  {
     title: "Mikeflex",
     subtitle: "Python & SQL",
     description:
@@ -23,6 +31,7 @@ export const projects = [
     image: "./Mikeflix.png",
     link: "https://michaelstarkb.pythonanywhere.com/",
   },
+
 ];
 export const skills = [
   {
