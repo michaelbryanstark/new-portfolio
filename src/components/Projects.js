@@ -20,23 +20,26 @@ export default function Projects() {
         <div className="flex flex-wrap justify-center -m-4">
           {projects.map((project) => (
             <a
-              href={project.link} target="_blank" rel="noreferrer"
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
               key={project.image}
-              className="p-6">
-              <div className="flex relative max-w-md">
+              className="p-6"
+            >
+              <div className="flex relative w-80 h-64 sm:w-96 sm:h-72">
                 <img
-                  alt="gallery"
-                  className="absolute rounded-lg inset-0 w-full h-full object-fill object-center"
+                  alt={project.title}
+                  className="absolute rounded-lg inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="max-w-md px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 rounded-lg opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full h-full overflow-hidden border-4 border-gray-800 bg-gray-900 rounded-lg opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-[#DEB992] mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed line-clamp-4">{project.description}</p>
                 </div>
               </div>
             </a>
