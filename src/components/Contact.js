@@ -62,8 +62,8 @@ export default function Contact() {
               Get in touch
             </h2>
             <p className="leading-relaxed mb-5 text-[#DEB992]">
-              Need a website overhaul, a bug you can't shake, or an app built? Or just want to
-              collaborate? Send me a message.
+              Need a website overhaul, a bug you can't shake, or an app built? Are you worried about whether or not the data that makes your website/business is secure an protected against outside threats?
+              Send me a message. I live to help!
             </p>
             <label htmlFor="name" className="leading-7 text-sm text-[#DEB992]">Name</label>
             <input id="name" name="name" type="text" className={inputClass + " mb-4"}
