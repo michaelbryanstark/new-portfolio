@@ -3,7 +3,7 @@ export const projects = [
     title: "BDS Quality Services",
     subtitle: "React",
     description:
-      "Built using the React.js, JavaScript, and HTML/CSS, BDS Quality Services is a company that provides quality assurance training and compliance.",
+      "Company site for a quality assurance training and compliance provider. Built with React.js, JavaScript and HTML/CSS.",
     image: "./bdsqs.jpg",
     link: "https://bdsqs.net",
   },
@@ -11,70 +11,48 @@ export const projects = [
     title: "The Penalty Box",
     subtitle: "Python and Django",
     description:
-      "Personal Blog with full CRUD built using the Django Framework and Python. Users can sign up leave comments on blog posts.",
+      "Personal blog with full CRUD built on Django. Visitors can sign up and comment on posts.",
     image: "./pirate.png",
     link: "https://penalty-box.onrender.com/",
   },
   {
-    title: "Star War Game",
+    title: "Galactic Duel",
     subtitle: "JavaScript, HTML, CSS",
     description:
-      "One of the first things I made, it works!",
+      "Turn-based browser duel: pick a fighter and an opponent, trade blows, and watch the health bars drop.",
     image: "./thumbnail.svg",
     link: "https://michaelbryanstark.github.io/Star_Wars_Duel/",
   },
   {
-    title: "Mikeflex",
+    title: "Mikeflix",
     subtitle: "Python & SQL",
     description:
-      "An attempt at my own streaming website. Can be made to work locally with a jellyfin server!",
+      "My own streaming site. Runs locally against a Jellyfin media server.",
     image: "./Mikeflix.png",
     link: "https://michaelstarkb.pythonanywhere.com/",
   },
-
 ];
-export const skills = [
-  {
-    skill: "Linux & MacOS Security",
-  },
-  {
-    skill: "Windows Server 2022 & Windows Security",
-  },
-  {
-    skill: "JavaScript, TypeScript, Python, Java",
-  },
-  {
-    skill: "Network Security and Management",
-  },
 
+export const skillGroups = [
   {
-    skill: "React Native, iOS, Android",
+    group: "Languages",
+    items: ["JavaScript", "TypeScript", "Python", "Java", "Objective C++", "HTML & CSS"],
   },
   {
-    skill: "MongoDB and Supabase",
+    group: "Web & Mobile",
+    items: ["React", "React Native", "Expo", "Node.js", "Express.js", "Django", "jQuery", "RESTful APIs", "MERN Stack"],
   },
   {
-    skill: "Expo",
+    group: "Data",
+    items: ["MongoDB", "Supabase", "PostgreSQL", "SQL", "JSON"],
   },
   {
-    skill: "Django",
-  },
-  {
-    skill: "HTML & CSS",
-  },
-  {
-    skill: "Express.js",
-  },
-  {
-    skill: "PostgreSQL & SQL",
-  },
-  {
-    skill: "Node.js",
-  },
-  {
-    skill: "jQuery, JSON, JWT",
-  },
-  {
-    skill: "MERN Stack, MVP Frameworks, RESTful APIs",
+    group: "Security & Systems",
+    items: [
+      "Linux & macOS Security",
+      "Windows Server 2022 & Windows Security",
+      "Network Security and Management",
+      "JWT",
+    ],
   },
 ];

@@ -1,82 +1,53 @@
 import React from "react";
-// import { NavLink } from 'react-router-dom';
 
-export default function Navbar({ fixed }) {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
+const links = [
+  { href: "#projects", label: "Apps" },
+  { href: "#skills", label: "Skills" },
+  { href: "#contact", label: "Contact" },
+];
+
+export default function Navbar() {
+  const [open, setOpen] = React.useState(false);
   return (
-    <>
-    <header className="bg-[#061624] opacity-90 sticky top-0 z-50">
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-[#061624] mb-3">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a
-              className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-[#DEB992] hover:text-white"
-              href="/"
-            >
-              Michael Bryan Stark
-            </a>
-            <button
-              className="text-[#1BA098] cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-[#DEB992] rounded block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-            </button>
-          </div>
-          <div
-            className={
-              "lg:flex flex-grow items-center" +
-              (navbarOpen ? " flex" : " hidden")
-            }
-            id="example-navbar-danger"
-          >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white"
-                  href="#projects"
-                >
-                  <span className="ml-2 text-[#1BA098] hover:text-white">Apps</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white"
-                  href="#skills"
-                >
-                 <span className="ml-2 text-[#1BA098] hover:text-white">Skills</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white"
-                  href="#contact"
-                >
-                  <span className="ml-2 text-[#1BA098] hover:text-white">Contact</span>
-                </a>
-              </li>
-              {/* <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-md uppercase font-bold leading-snug text-white"
-                  href="test"
-                >
-                  <span className="ml-2 text-[#1BA098] hover:text-white">Test</span>
-                </a>
-              </li> */}
-              <li className="nav-item">
-                
-                
-              </li>
-            </ul>
-          </div>
-        </div>
-        {/* <NavLink exact to="/test">
-
-                  <span className="ml-2 text-[#1BA098] hover:text-white">Test</span>
-
-                </NavLink> */}
+    <header className="bg-[#061624]/90 backdrop-blur sticky top-0 z-50 border-b border-gray-800">
+      <nav className="container mx-auto px-5 py-3 flex flex-wrap items-center justify-between">
+        <a
+          className="text-lg font-bold uppercase text-[#DEB992] hover:text-white"
+          href="#about"
+        >
+          Michael Bryan Stark
+        </a>
+        <button
+          className="lg:hidden text-[#1BA098] px-3 py-2 border border-[#DEB992] rounded"
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded={open}
+          onClick={() => setOpen(!open)}
+        >
+          <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+        <ul
+          className={
+            "w-full lg:w-auto lg:flex flex-col lg:flex-row lg:gap-2 list-none" +
+            (open ? " flex" : " hidden")
+          }
+        >
+          {links.map((l) => (
+            <li key={l.href}>
+              <a
+                href={l.href}
+                onClick={() => setOpen(false)}
+                className="block px-3 py-2 uppercase font-bold text-[#1BA098] hover:text-white"
+              >
+                {l.label}
+              </a>
+            </li>
+          ))}
+        </ul>
       </nav>
-      </header>
-    </>
+    </header>
   );
 }

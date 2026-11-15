@@ -1,25 +1,25 @@
 import React from "react";
-import { SocialIcon } from 'react-social-icons';
+import { SocialIcon } from "react-social-icons";
 
 export default function Footer() {
-    return (
-        <div className="flex flex-wrap justify-center">
-            <footer class=" bg-[#061624] rounded-lg shadow m-4 pb-60">
-                <ul class="flex flex-wrap justify-center">
-                    <li>
-                        <SocialIcon className="nav-item" fgColor="white" url="https://github.com/michaelbryanstark" target="_blank" />
-                    </li>
-                    <li>
-                        <SocialIcon className="nav-item" fgColor="white" url="https://www.linkedin.com/in/michaelbryanstark/" target="_blank" />
-                    </li>
-                </ul>
-                <div class="w-full mx-auto container md:p-6 p-4 md:flex md:items-center md:justify-between">
-                    <span class="text-sm text-[#DEB992] sm:text-center">© 2026 <a href="https://github.com/michaelbryanstark" target="_blank" rel="noreferrer">MichaelBryanStark™</a>
-                        <p>All Rights Reserved.</p>
-                        <p>Anti AI, people learn how to think by learning.</p>
-                    </span>
-                </div>
-            </footer>
-        </div>
-    );
+  return (
+    <footer className="mt-24 border-t border-gray-800 py-10 text-center text-sm text-[#DEB992]">
+      <ul className="flex justify-center gap-3 mb-6">
+        <li>
+          <SocialIcon fgColor="white" url="https://github.com/michaelbryanstark" target="_blank" />
+        </li>
+        <li>
+          <SocialIcon fgColor="white" url="https://www.linkedin.com/in/michaelbryanstark/" target="_blank" />
+        </li>
+      </ul>
+      <p>
+        © 2026{" "}
+        <a href="https://github.com/michaelbryanstark" target="_blank" rel="noreferrer" className="hover:text-white">
+          MichaelBryanStark™
+        </a>
+        . All Rights Reserved.
+      </p>
+      <p className="mt-1">AI is a tool. People use tools.</p>
+    </footer>
+  );
 }
