@@ -11,12 +11,36 @@ export default function About() {
           <h2 className="title-font sm:text-2xl text-xl mt-3 mb-6 text-[#1BA098]">
             Full Stack Developer & Cybersecurity Student
           </h2>
-          <p className="mb-8 leading-relaxed text-lg text-[#DEB992] max-w-xl">
-            I'm a software engineer with a background in Physics and Operations Management, now
-            studying cybersecurity to help protect data against the challenges AI poses. I like
-            solving problems and building logical systems that streamline how things work, using
-            all the tools and methods I have learned throughout my life .
-          </p>
+          <div className="mb-8 max-w-xl space-y-4 text-lg leading-relaxed text-[#DEB992]">
+            <p>Hi, I'm Michael.</p>
+
+            <p>
+              Full Stack Developer turning my engineering experience toward cybersecurity
+              and IT infrastructure. I started in Physics and Operations Management,
+              which taught me to break complex systems into logical parts and find where
+              they fail. As a freelance web developer, I've helped build apps for clients
+              and seen firsthand how easily security gets overlooked under deadline
+              pressure.
+            </p>
+
+            <p>
+              I'm now studying cybersecurity to bring a developer's perspective to
+              systems and network security, and I'm currently preparing for CompTIA
+              Security+ and Network+.
+            </p>
+
+            <p>
+              On the hands-on side, I run a home lab on a Fedora Linux server, hosting
+              private game servers and a media streaming service for friends and family.
+              It's where I practice Linux administration, networking, and firewall
+              configuration.
+            </p>
+
+            <p>
+              I'm looking for system administration and network administration roles, and
+              I'm always happy to connect with others in dev, IT, and security.
+            </p>
+          </div>
           <div className="flex flex-wrap justify-center gap-4">
             <a
               href="#contact"
