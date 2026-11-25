@@ -19,7 +19,7 @@ export default function Footer() {
         </a>
         . All Rights Reserved.
       </p>
-      <p className="mt-1">AI is a tool. People use tools.</p>
+      <p className="mt-1">AI is a tool for people to use, not a tool to replace people.</p>
     </footer>
   );
 }
